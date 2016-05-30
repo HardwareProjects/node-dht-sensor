@@ -3,10 +3,6 @@
 #include <cstdlib>
 #include <ctime>
 
-// Access from ARM running linux
-#define BCM2708_PERI_BASE	0x20000000
-#define GPIO_BASE		(BCM2708_PERI_BASE + 0x200000)
-
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
